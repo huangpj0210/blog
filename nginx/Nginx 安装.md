@@ -19,7 +19,6 @@
 4. SSL安全加密套接字协议https
 
    yum install -y openssl openssl-devel
-   
 ##### 3.解压缩 
 
 ```shell
@@ -109,7 +108,7 @@ cd /usr/local/nginx/sbin
 - 停止防火墙
 
   ```shell
-  systemctl stop firewalld.servcie
+  systemctl stop firewalld.service
   ```
 
   
@@ -120,5 +119,4 @@ cd /usr/local/nginx/sbin
   systemctl disable firewalld.service
   ```
 <!--如果是云服务要到控制台开启端口，默认80端口是打开的-->
-
 
